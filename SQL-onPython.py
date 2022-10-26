@@ -5,11 +5,12 @@
 # perform SQL queries within a python program                    #
 ##################################################################
 # py -m venv venv to create a new virtual environment
-# pip install openpyxl
-# 
+
 # required modules
 # please install anaconda in order to install Pandas: https://www.anaconda.com/
-# please install Pandas by using Anaconda cmd Prompt: conda install pandas
+# please install using cmd Prompt:
+# pip install openpyxl
+# pip install pandas
 from csv import excel
 import pandas as pd
 excel_file = 'HD2020.xlsx'
