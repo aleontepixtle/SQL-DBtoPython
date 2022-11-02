@@ -20,8 +20,6 @@
 # res = cur.execute("SELECT name FROM sqlite_master WHERE name='spam'")
 # res.fetchone() is None
 
-
-from itertools import count
 import sqlite3
 from sqlite3 import Error
 
