@@ -38,7 +38,7 @@ connection = create_connection("SmartphoneInventory.db")
  
 cur = connection.cursor()
 # Only uncomment out this line to create a NEW TABLE
-#ur.execute("CREATE TABLE SmartPhone(Brand, Model, InternalMemory, ScreenSize, RAM, Color, Price, Carrier, SKU, UPC)")
+#cur.execute("CREATE TABLE SmartPhone(Brand, Model, InternalMemory, ScreenSize, RAM, Color, Price, Carrier, SKU, UPC)")
 #print("Table Successfully Created!")
 
 # Insert ONE set of data into the newly created columns here
